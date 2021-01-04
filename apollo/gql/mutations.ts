@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
 import { F_ITINERARY, F_CATEGORY, F_PRODUCT, F_FILE, F_PAGE_INFO } from "./fragments";
 
-  
+
 export const PCATEGORY_CREATAE = gql`
   mutation pcategoryCreate(
     $params: pCategoryCreateInput!

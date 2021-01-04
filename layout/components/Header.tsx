@@ -98,13 +98,13 @@ export const Header: React.FC<IProp> = () => {
                 <ul>
                     <li className="join">
                         {isLogin ? <i />
-                            : <Link href="/join">
+                            : <Link href="/magency_join">
                                 <a>JOIN</a>
                             </Link>}
                     </li>
                     <li className="login">
                         {isLogin ? <a onClick={handleLogOut}>LOGOUT</a>
-                            : <Link href="/login">
+                            : <Link href="/magency_login">
                                 <a>LOGIN</a>
                             </Link>}
                     </li>
@@ -131,40 +131,40 @@ export const Header: React.FC<IProp> = () => {
                     <div className="hd_center">
                         <div className="nav_wrap">
                             <ul className="deps1">
-                                <li className="deps">
+                                {/* <li className="deps">
 
                                     <Link href="/site-info">
                                         <a>PinkRoader</a>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="deps">
-                                    <Link href="/portfolio">
-                                        <a>Work</a>
+                                    <Link href="/mdeal/mdeal_list">
+                                        <a>M딜</a>
                                     </Link>
                                 </li>
                                 <li className="deps">
-                                    <Link href="/tour/list">
-                                        <a>Tour</a>
+                                    <Link href="/influencer/list">
+                                        <a>인플루언서</a>
                                     </Link>
                                 </li>
-                                <li className="deps">
+                                {/* <li className="deps">
                                     <Link href="/tour?exp=true">
                                         <a>Experience</a>
                                     </Link>
-                                </li>
-                                <li className="deps">
+                                </li> */}
+                                {/* <li className="deps">
                                     <a href="https://smartstore.naver.com/pinkroader" target="_blank">Design Goods</a>
-                                </li>
+                                </li> */}
                                 <li className="deps">
-                                    <Link href="/news">
-                                        <a>News</a>
+                                    <Link href="/notice/notice_list">
+                                        <a>서비스</a>
                                     </Link>
 
-                                    <ul className="deps_nav">
+                                    {/* <ul className="deps_nav">
                                         <li><Link href={`news?type=${NEWS_TYPE.TRAVEL}`}><a>여행이야기</a></Link></li>
                                         <li><Link href={`news?type=${NEWS_TYPE.CULTURE}`}><a>문화이야기</a></Link></li>
                                         <li><Link href={`news?type=${NEWS_TYPE.MEDIA}`}><a>언론보도</a></Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                             </ul>
                         </div>
@@ -249,22 +249,29 @@ export const Header: React.FC<IProp> = () => {
                             <span><Link href="https://booking-app.stayjanda.cloud/#/"><a>예약관리시스템</a></Link></span>
                         </div>
                         <ul>
-                            <li className="a_menu_tit deps solo_nav">
+                            {/* <li className="a_menu_tit deps solo_nav">
                                 <Link href="/site-info"><a>PinkRoader<i className="jandaicon-arr4-right"></i></a></Link>
-                            </li>
+                            </li> */}
                             <li className="a_menu_tit deps solo_nav">
-                                <Link href="/portfolio"><a>Work<i className="jandaicon-arr4-right"></i></a></Link>
+                                <a href="/mdeal/mdeal_list">M딜<i className="jandaicon-arr4-right"></i></a>
+                                {/*<Link href="/mdeal/mdeal_list"><a>M딜<i className="jandaicon-arr4-right"></i></a></Link>
+                                 <ul className="depth1">
+                                    <li onClick={handleAllClose} className="betatest"><Link href="/mdeal/mdeal_list"><a>M딜</a></Link></li>
+                                    <li onClick={handleAllClose} className="betatest"><Link href="/tour/list"><a>인플루언서(view)</a></Link></li>
+
+                                </ul> */}
                             </li>
                             <li className="a_menu_tit deps">
-                                <Link href="/tour/list"><a>Tour<i className="jandaicon-arr4-right"></i></a></Link>
+                                <a href="/influencer/list">인플루언서<i className="jandaicon-arr4-right"></i></a>
+                                {/*<Link href="/tour/list"><a>인플루언서<i className="jandaicon-arr4-right"></i></a></Link>
                                 <ul className="depth1">
-                                    <li onClick={handleAllClose} className="betatest"><Link href="/tour/list"><a>Tour - list</a></Link></li>
-                                    <li onClick={handleAllClose} className="betatest"><Link href="/tour/list"><a>Tour - veiw</a></Link></li>
+                                    <li onClick={handleAllClose} className="betatest"><Link href="/influencer/list"><a>인플루언서</a></Link></li>
+                                    <li onClick={handleAllClose} className="betatest"><Link href="/tour/list"><a>인플루언서(view)</a></Link></li>
                                     <li onClick={handleAllClose} className="betatest"><Link href="/tour/list"><a>Tour - correction+writing</a></Link></li>
 
-                                </ul>
+                                </ul>*/}
                             </li>
-                            <li className="a_menu_tit deps">
+                            {/* <li className="a_menu_tit deps">
                                 <Link href="/tour?type=exp"><a>Experience<i className="jandaicon-arr4-right"></i></a></Link>
                                 <ul className="depth1">
                                     <li onClick={handleAllClose} className="betatest"><Link href="/"><a>Experience - list</a></Link></li>
@@ -272,19 +279,36 @@ export const Header: React.FC<IProp> = () => {
                                     <li onClick={handleAllClose} className="betatest"><Link href="/"><a>Experience - correction+writing</a></Link></li>
 
                                 </ul>
-                            </li>
-                            <li className="a_menu_tit deps solo_nav">
+                            </li> */}
+                            {/* <li className="a_menu_tit deps solo_nav">
                                 <Link href="/"><a target="_blank">Design Goods<i className="jandaicon-arr4-right"></i></a></Link>
-                            </li>
+                            </li> */}
                             <li className="a_menu_tit deps">
-                                <Link href="/news"><a target="_blank">News<i className="jandaicon-arr4-right"></i></a></Link>
-                                <ul className="depth1">
+                                <a href="/notice/notice_list">서비스<i className="jandaicon-arr4-right"></i></a>
+                                {/*<Link href="/notice/notice_list"><a target="_blank">서비스<i className="jandaicon-arr4-right"></i></a></Link>
+                                 <ul className="depth1">
                                     <li onClick={handleAllClose}><Link href="/tourstory"><a>여행이야기</a></Link></li>
                                     <li onClick={handleAllClose}><Link href="/culture"><a>문화이야기</a></Link></li>
                                     <li onClick={handleAllClose}><Link href="/news"><a>언론보도</a></Link></li>
+                                </ul> */}
+                            </li>
+                            <li className="a_menu_tit deps">
+                                <a href="../login">회원<i className="jandaicon-arr4-right"></i></a>
+                                <ul className="depth1">
+                                    <li><a href="/magency_login">로그인</a></li>
+                                    <li><a href="/magency_join">회원가입</a></li>
+                                    {/*<li><a href="/idpw_find">아이디/비번 찾기</a></li>
+                                    <li><a href="/member/search">통합검색</a></li>
+                                    <li><a href="/member/rule">이용약관</a></li>
+                                    <li><a href="/member/privacy-policy">개인정보처리방침</a></li>
+                                    <li><a href="/member/electron-terms">전자상거래이용약관</a></li>
+                                    <li><a href="/member/kr-terms">국내여행약관</a></li>
+                                    <li><a href="/member/inquirylist">고객문의</a></li>
+                                    <li><a href="/member/notice">공지사항</a></li>
+                                    <li><a href="/member/qna">자주하는질문</a></li> */}
                                 </ul>
                             </li>
-                            <li className="a_menu_tit deps hiddennav betatest">
+                            {/* <li className="a_menu_tit deps hiddennav betatest">
                                 <Link href="/mypage"><a target="_blank">My page<i className="jandaicon-arr4-right"></i></a></Link>
                                 <ul className="depth1">
                                     <li><a href="/mypage">회원정보</a></li>
@@ -310,8 +334,8 @@ export const Header: React.FC<IProp> = () => {
                                     <li><a href="/master/homepage">홈페이지 설정</a></li>
                                 </ul>
 
-                            </li>
-                            <li className="a_menu_tit deps hiddennav betatest">
+                            </li> */}
+                            {/* <li className="a_menu_tit deps hiddennav betatest">
                                 <a href="../login">Member<i className="jandaicon-arr4-right"></i></a>
                                 <ul className="depth1">
                                     <li><a href="/login">로그인</a></li>
@@ -326,7 +350,7 @@ export const Header: React.FC<IProp> = () => {
                                     <li><a href="/member/notice">공지사항</a></li>
                                     <li><a href="/member/qna">자주하는질문</a></li>
                                 </ul>
-                            </li>
+                            </li> */}
                         </ul>
                         <button className="btn_all_close" onClick={handleAllClose}>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.15 26.15">

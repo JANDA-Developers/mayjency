@@ -8,7 +8,7 @@ import FormPartnerNormal from 'components/join/FormPartnerNormal';
 import PolicyPopup from 'components/policyPopup/PolicyPopup';
 import FormNormal from 'components/join/FormNormal';
 import SubTopNav from 'layout/components/SubTop';
-import { SIGNINGOOGLE, SIGNINKAKAO } from '../apollo/gql/mutations';
+
 interface IchkPolocy {
     policy_use: boolean,
     policy_info_collect: boolean,
@@ -242,8 +242,6 @@ const Verification: React.FC<IProps> = ({ handleVerifyGoogle, handleVerifyKakao 
 
     /* ::::: GraphQL ::::: */
 
-    const [signInGoogleMutation] = useMutation(SIGNINGOOGLE)
-    const [signInKakaoMutation] = useMutation(SIGNINKAKAO)
 
     const setGoogleToken = (token) => {
         localStorage.setItem('token', token);
@@ -251,26 +249,11 @@ const Verification: React.FC<IProps> = ({ handleVerifyGoogle, handleVerifyKakao 
 
     const responseGoogle = async (response) => {
 
-        const { data } = await signInGoogleMutation({ variables: { code: new String(response.code) } });
-        const token = data.SignInGoogle.data.token;
-
-        if (data.SignInGoogle.ok) {
-            handleVerifyGoogle(true);
-            setGoogleToken(token);
-        } else {
-            handleVerifyGoogle(false);
-        }
 
     }
 
     const responseKakao = async (response) => {
-        const { data } = await signInKakaoMutation({ variables: { code: "3_sVvZcXcOlZNHEjKH763miBWOF-tmP8RDQZQuzhHDecY6apMee0yNQZWqj3EpRkq1R8rAo9cxgAAAF1hDr4yg" } });
-        console.log('kakao');
-        if (data.SignInKakao.ok) {
-            handleVerifyKakao(true);
-        } else {
-            handleVerifyKakao(false);
-        }
+
     }
 
 

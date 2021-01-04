@@ -34,19 +34,19 @@ export const Login: React.FC<IProp> = () => {
     }
     // 로그인성공시
     // saveLocal("saveid", id);
-    useEffect(() => {
-        initStorage()
-        setId(Storage.getLocal("saveid", ""))
-        setSaveId(!!Storage.getLocal("saveId?", ""))
-        setSaveSession(!!Storage.getLocal("saveSession?", ""))
-    }, [])
+    // useEffect(() => {
+    //     initStorage()
+    //     setId(Storage.getLocal("saveid", ""))
+    //     setSaveId(!!Storage.getLocal("saveId?", ""))
+    //     setSaveSession(!!Storage.getLocal("saveSession?", ""))
+    // }, [])
 
 
-    useEffect(() => {
-        Storage.saveLocal("saveid", saveId)
-        Storage.saveLocal("saveSession?", saveSession)
+    // useEffect(() => {
+    //     Storage.saveLocal("saveid", saveId)
+    //     Storage.saveLocal("saveSession?", saveSession)
 
-    }, [saveId, saveSession])
+    // }, [saveId, saveSession])
 
     const handleUserType = (type: UserRole) => {
         setUserType(type);
@@ -62,27 +62,27 @@ export const Login: React.FC<IProp> = () => {
         console.log(userPw);
     }
 
-    const [LoginQu, { loading: create_loading }] = useLazyQuery<signIn, signInVariables>(SIGN_IN, {
-        fetchPolicy: "network-only",
-        onCompleted: ({ SignIn }) => {
-            if (SignIn.ok) {
-                Storage.saveLocal("jwt", SignIn.data.token);
-                toast.info("환영합니다.");
-                location.href = "/"
-            } else {
-                alert(SignIn.error)
-            }
-        },
-    })
+    // const [LoginQu, { loading: create_loading }] = useLazyQuery<signIn, signInVariables>(SIGN_IN, {
+    //     fetchPolicy: "network-only",
+    //     onCompleted: ({ SignIn }) => {
+    //         if (SignIn.ok) {
+    //             Storage.saveLocal("jwt", SignIn.data.token);
+    //             toast.info("환영합니다.");
+    //             location.href = "/"
+    //         } else {
+    //             alert(SignIn.error)
+    //         }
+    //     },
+    // })
 
-    const handleLogin = () => {
-        LoginQu({
-            variables: {
-                email: userId,
-                pw: userPw,
-            }
-        })
-    }
+    // const handleLogin = () => {
+    //     LoginQu({
+    //         variables: {
+    //             email: userId,
+    //             pw: userPw,
+    //         }
+    //     })
+    // }
 
     return <div >
         <div className="top_visual">
@@ -201,7 +201,7 @@ export const Login: React.FC<IProp> = () => {
                                 아이디 기억
                                 </label>
                             </div>
-                            <button type="submit" className="sum" onClick={handleLogin}>
+                            <button type="submit" className="sum" >
                                 <span >로그인</span>
                             </button>
                             <div className="sign_in_form">
