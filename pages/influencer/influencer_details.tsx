@@ -52,7 +52,7 @@ export const TourList: React.FC<IProp> = () => {
                             <span> 프로필사진</span>
                         </div>
                         <div className="id">
-                            Mani
+                            stayyolo
                         </div>
                         <ul className="tag">
                             <li>#부산</li>
@@ -65,7 +65,7 @@ export const TourList: React.FC<IProp> = () => {
                     </div>
                     <div className="con02 self_info">
                         <div className="txt">
-                            맛집탐방을 하러 다니는 인플루언서입니다.  맛집탐방을 하러 다니는 인플루언서입니다.맛집탐방을 하러 다니는 인플루언서입니다.맛집탐방을 하러 다니는 인플루언서입니다.맛집탐방을 하러 다니는 인플루언서입니다.맛집탐방을 하러 다니는 인플루언서입니다.맛집탐방을 하러 다니는 인플루언서입니다.맛집탐방을 하러 다니는 인플루언서입니다.맛집탐방을 하러 다니는 인플루언서입니다.
+                            여행과 사랑의 공통점은 가슴이 두근 거리는 것! 길을 잃을 때 가슴이 두근거리고 사랑에 빠집니다. 맛있은 음식을 하면 나누어 먹고 싶듯, 재밌는 여행을 하면 이야기를 나누고 싶습니다. 여행과 일상을 기록합니다.
                         </div>
                     </div>
                     <div className="con03">
@@ -104,75 +104,75 @@ export const TourList: React.FC<IProp> = () => {
                         <ul className="list_ul">
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#요트 #부산</div>
+                                <div className="title">요트체험</div>
+                                <div className="cash">30,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#진해 #뚜벅이여행 #소풍</div>
+                                <div className="title">진해로 소풍가실분들 모집중</div>
+                                <div className="cash">30,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#1박2일 #제주도</div>
+                                <div className="title">제주도 꽃구경 가실분?!</div>
+                                <div className="cash">230,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#경주여행 #야경투어</div>
+                                <div className="title">경주야경투어</div>
+                                <div className="cash">120,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#서울 #궁궐</div>
+                                <div className="title">궁궐에서의 사진 모델 투어</div>
+                                <div className="cash">70,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#한강공원 #서울</div>
+                                <div className="title">한강공원에서 피크닉 즐기기</div>
+                                <div className="cash">35,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#전주 #한옥마을</div>
+                                <div className="title">전주한옥마을 한복체험&사진촬영</div>
+                                <div className="cash">100,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#서울 #하이킹</div>
+                                <div className="title">서울 성곽을 따라 즐기는 하이킹</div>
+                                <div className="cash">39,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#부산 #인생사진</div>
+                                <div className="title">멋진 부산의 야경구경&인생사진 남기기</div>
+                                <div className="cash">25,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#북한산 #하이킹</div>
+                                <div className="title">북한산, 도봉산, 인왕산 하이킹</div>
+                                <div className="cash">39,900원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#투어 #부산</div>
+                                <div className="title">부산의 진정한 아름다움</div>
+                                <div className="cash">55,000원</div>
                             </li>
                             <li className="list_in">
                                 <div className="img">상품이미지</div>
-                                <div className="tag">#티켓 #경남</div>
-                                <div className="title">더운날 수목원으로 오세요~!!</div>
-                                <div className="cash">10,000원</div>
+                                <div className="tag">#경주 #문화유산</div>
+                                <div className="title">유네스코 세계문화유산 경주 투어</div>
+                                <div className="cash">80,000원</div>
                             </li>
                         </ul>
                         <div className="pagenate">

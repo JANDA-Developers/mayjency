@@ -46,13 +46,13 @@ export const TourList: React.FC<IProp> = () => {
                     <div className="boardReadHeader">
                             <div className="titleArea">
                                 <a href="" className="category">
-                                    행사
+                                    투어
                                 </a>
-                                <a href="" className="title">이십세기 이승환 +</a>
+                                <a href="" className="title">경주야경 투어</a>
                                 <div className="tag">
                                     <span><i className="xi-tag" title="태그"></i></span>
-                                    <span><a href="" rel="tag">#입장권</a></span>
-                                    <span><a href="" rel="tag">#티켓</a></span>
+                                    <span><a href="" rel="tag">#경주여행</a></span>
+                                    <span><a href="" rel="tag">#야경투어</a></span>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ export const TourList: React.FC<IProp> = () => {
                                         <tbody>
                                             <tr>
                                                 <th>장소</th>
-                                                <td>부산시민아트홀</td>
+                                                <td>경주역</td>
                                             </tr>
                                             <tr>
                                                 <th>판매기간</th>
@@ -107,7 +107,7 @@ export const TourList: React.FC<IProp> = () => {
                                             <tbody>
                                                 <tr>
                                                     <th>1인</th>
-                                                    <td><strong>60,000</strong>원</td>
+                                                    <td><strong>120,000</strong>원</td>
                                                 </tr>
                                             </tbody>
                                         </table>

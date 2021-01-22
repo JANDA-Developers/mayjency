@@ -59,14 +59,14 @@ function App({ Component, pageProps }: any) {
   const [pageInfoUpdateMu, { loading: pageInfoUpdateLoading }] = useMutation<pageInfoUpdate, pageInfoUpdateVariables>(PAGE_INFO_UPDATE, {
     client: PinkClient
   })
-  const { data } = useQuery<getContext>(GET_CONTEXT, {
-    client: PinkClient,
-    nextFetchPolicy: "cache-and-network"
-  })
+  // const { data } = useQuery<getContext>(GET_CONTEXT, {
+  //   client: PinkClient,
+  //   nextFetchPolicy: "cache-and-network"
+  // })
 
-  const catList = data?.CategoryList?.data || []
-  const myProfile = data?.GetProfile?.data || undefined
-  const role: UserRole = myProfile?.role || UserRole.anonymous
+  const catList:any[] = [];
+  const myProfile =  undefined;
+  const role: UserRole =  UserRole.admin;
 
   const submitEdit = (key: string, value: any) => {
     const params = {

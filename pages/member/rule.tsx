@@ -9,7 +9,7 @@ export const Rule: React.FC<IProp> = () => {
         <div className="top_visual">
             <div
                 className="sub_header sub_bg"
-                style={{ backgroundImage: `url(/img/pr_img_01.jpg)` }}
+                style={{ backgroundImage: `url(/img/magency_sub_bg.jpg)` }}
             >
                 <div className="w1200">
                     <h2 className="title">이용약관</h2>

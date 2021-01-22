@@ -41,7 +41,7 @@ export const MypageLayout: React.FC<IProp> = ({ children }) => {
         <div className="top_visual">
             <div
                 className="sub_header sub_bg"
-                style={{ backgroundImage: `url(/img/pr_img_37.jpg)` }}
+                style={{ backgroundImage: `url(/img/magency_sub_bg.jpg)` }}
             >
                 <div className="w1200">
                     <h2 className="title">My page</h2>

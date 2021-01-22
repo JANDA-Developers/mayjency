@@ -46,264 +46,111 @@ export const StieInfo: React.FC<InferGetStaticPropsType<typeof getStaticProps>> 
     }
 
 
+
     return <div className="siteInfo_in">
-        <HiddenSubmitBtn setData={setPage} original={original} path="site-info" data={page} />
-        <div style={{
-            ...bg("mainBg")
-        }} className="top_bg w100">
-            <div className="w1200">
-                <h3  {...edit("mainTitle")} />
-                <span  {...edit("secondTitle")} />
-            </div>
-            <Upload onUpload={imgEdit("mainBg")} />
+    <div className="top_bg w100">
+        <div className="w1200">
+            <h3>예약+마케팅=메이전시<br />마케팅이 쉬워진다</h3>
+            <p>마케팅이 어려우셨죠? 영향력이 있는 인플루언서들과 예약상품들을 이어드립니다.</p>
+            <ul>
+                <li>인플루언서 지원하기</li>
+                <li>광고문의하기</li>
+            </ul>
         </div>
-        {/* <div className="bold" title="Bold" onClick={() => { effectDoc('bold') }}>B</div> */}
-        <div className="w100 con01 con_block">
-            <div className="">
-                <div className="bottom">
-                    <div className="haf_first">
-                        <div {...ulEdit("pinkVision")} />
+    </div>
+    <div className="w1200 con01 con_block">
+        <h4>함께하는 인플루언서들</h4>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div className="w1200 con02 con_block">
+        <h4>마케팅에 최적화된 메이전시</h4>
+        <ul>
+            <li>
+                <img src="/img/p_icon.png" alt="icon1" />
+                <h3>마케팅을 찾아 다닐 필요 없어요.</h3>
+                <p>메이전시에서 마케팅상품을 찾으세요. 언제까지 알아서 일이 들어오길 기다려야 하나요? 이제는 내가 마케팅상품을 골라서 올리면 됩니다.</p>
+            </li>
+            <li>
+                <img src="/img/p_icon.png" alt="icon1" />
+                <h3>계약건수 만큼 정산 받으세요.</h3>
+                <p>더 이상 글 한개당 정산 받지마세요. 글을 한개를 써도 나를 통해 이루어진 계약건수 만큼 수수료가 지급됩니다. 더 이상 피곤하게 옛날방식으로 정산받지마세요.</p>
+            </li>
+            <li>
+                <img src="/img/p_icon.png" alt="icon1" />
+                <h3>에디에 글을 홍보하든 상관없어요.</h3>
+                <p>팔로워수를 걱정하고 계시나요? 팔로워수 걱정없이 인플루언서로 지원하세요. 중요한건 실제로 성사되는 계약이니까. 어디에 해당페이지를 홍보하든 상관없어요. 내가 등록한 상품페이지에서 계약만 이루어지면 됩니다.</p>
+            </li>
+        </ul>
+    </div>
+    <div className="w100 con03 con_block">
+            <div className="w1200 box">
+                <input id="tab-1" type="radio" name="radio-set" className="tab-selector-1" checked="checked"/>
+                <label for="tab-1" className="tab-label-1"><b>인플루언서 등록</b></label>
+                <input id="tab-2" type="radio" name="radio-set" className="tab-selector-2"/>
+                <label for="tab-2" className="tab-label-2"><b>활동방법</b></label>
+                <input id="tab-3" type="radio" name="radio-set" className="tab-selector-3"/>
+                <label for="tab-3" className="tab-label-3"><b>실적확인</b></label>
+                <input id="tab-4" type="radio" name="radio-set" className="tab-selector-4"/>
+                <label for="tab-4" className="tab-label-4"><b>정산방법</b></label>
+                <div className="sbox content-1" id="dtText01">
+                    <div className="left">
+                        <img src="/img/site-info_img01.png" alt="icon1"/>
                     </div>
-                    <div className="haf">
-                        <strong {...edit("visionBox1_title")} />
-                        <ul onKeyDown {...ulEdit("visionBox1_cotnent")}
-                        />
-                    </div>
-                    <div className="haf">
-                        <strong {...edit("visionBox2_title")} />
-                        <ul {...ulEdit("visionBox2_cotnent")} />
+                    <div className="right">
+                        <h4>인플루언서 등록은 어떻게 하나요?</h4>
+                        <p>인플루언서는 메이전시 홈페이지로 회원가입을 통해 신청할 수 있습니다. 승인제로 진행되고 있으며, 24시간 이내에 가입완료 이메일을 발송드립니다.</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div className="con02">
-            <div className="w1200">
-                <div className="top_txt">
-                    <h4  {...edit("purpose_title")} />
-                    <p  {...edit("purpose_desc")} />
+                <div className="sbox content-2" id="dtText01">
+                    <div className="left">
+                        <img src="/img/site-info_img01.png" alt="icon1"/>
+                    </div>
+                    <div className="right">
+                        <h4>활동은 어떻게 해야하나요?</h4>
+                        <p>인플루언서는 메이전시 내에서 상품을 등록을 할 수있습니다. <br className="no"/>상품을 등록하면서 예약상품과 연결이 되고 해당 글로 예약이 들어오게 되면 정산이 이루어지게 됩니다. 인플루언서님이 등록한 해당 글의 고유주소를 SNS에 올려서 홍보해주세요. 글을 1개만 써도 신규계약이 들어온 만큼 정산받는 새로운 방식의 마케팅시스템입니다.</p>
+                    </div>
                 </div>
-                <ul>
-                    <li>
-                        <i className="icon_01" style={{
-
-                        }} />
-                        <strong {...edit("purpose1_title")} />
-                        <p {...edit("purpose1_bottom")} />
-                    </li>
-                    <li>
-                        <i className="icon_02" style={{
-
-                        }} />
-                        <strong  {...edit("purpose2_title")} />
-                        <p {...edit("purpose2_bottom")} />
-                    </li>
-                    <li>
-                        <i className="icon_03" style={{
-
-                        }} />
-                        <strong  {...edit("purpose3_title")} />
-                        <p  {...edit("purpose3_bottom")} />
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div className="w100 con03 con_block">
-            <div className="w1200">
-                <h4  {...edit("value_title")} />
-                <p {...edit("value_desc")} />
+                <div className="sbox content-3" id="dtText01">
+                    <div className="left">
+                        <img src="/img/site-info_img01.png" alt="icon1"/>
+                    </div>
+                    <div className="right">
+                        <h4>나의 실적은 어디서 확인하나요?</h4>
+                        <p>나의 실적은 [나의메이전시]안에 [정산]메뉴에서 확인이 가능합니다.</p>
+                    </div>
+                </div>
+                <div className="sbox content-4" id="dtText01">
+                    <div className="left">
+                        <img src="/img/site-info_img01.png" alt="icon1"/>
+                    </div>
+                    <div className="right">
+                        <h4>정산은 어떻게 받나요?</h4>
+                        <p>정산은 한달에 2번 이루어지며 매달 15일, 28일에 정산을 신청해주신 순서대로 진행이 됩니다. 정산신청 가능한 최소 금액은 10,000원입니다.</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div className="w100 con04 con_block">
-            <div className="infopp">
-                <div className="w1200">
-                    <strong className="ovj">PINKROADER</strong>
-                    <ul>
-                        <li className="n01">
-                            <h4>
-                                <strong {...edit("value1_title")} />
-                                <span  {...edit("value1_en")} />
-                            </h4>
-                            <div className="txt" title="value1_desc" {...edit("value1_desc")} />
-                        </li>
-                        <li className="n02">
-                            <h4>
-                                <strong {...edit("value3_title")} />
-                                <span {...edit("value3_en")} />
-                            </h4>
-                            <div className="txt"  {...edit("value3_desc")} />
-                        </li>
-                        <li className="n03">
-                            <h4>
-                                <strong {...edit("value2_title")} />
-                                <span {...edit("value2_en")} />
-                            </h4>
-                            <div className="txt"  {...edit("value2_desc")} />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className="infoimg">
-                <div className="w1200">
-                    <div {...edit("info_img_title")} className="li01" />
-                    <div className="li03">
-                        <div className="dong01">
-                            <strong>01</strong>
-                            <span  {...edit("info_img1_title")} />
-                            <i {...edit("info_img1_desc")} />
-                        </div>
-                        <div className="dong02">
-                            <strong>02</strong>
-                            <span  {...edit("info_img2_title")} />
-                            <i {...edit("info_img2_desc")} />
-                        </div>
-                        <div className="dong03">
-                            <strong>03</strong>
-                            <span {...edit("info_img3_title")} />
-                            <i {...edit("info_img3_desc")} />
-                        </div>
-                        <div className="dong04">
-                            <strong>04</strong>
-                            <span {...edit("info_img4_title")} />
-                            <i {...edit("info_img4_desc")} />
-                        </div>
-                    </div>
-                    <div className="li04">
-                        <img src={'/img/svg/siteinfo_svg04.svg'} alt="화살표" />
-                    </div>
-                    <div className="li05">지역경제활성화</div>
-                </div>
-                <div className="wave_animation_wrap">
-                    <div className="figure_wrap">
-                        <div className="wave1 item"><span style={{ backgroundImage: 'url(/img/foot_wave01.png)' }}></span></div>
-                        <div className="wave2 item"><span style={{ backgroundImage: 'url(/img/foot_wave02.png)' }}></span></div>
-                        <div className="wave3 item" > <span style={{ backgroundImage: 'url(/img/foot_wave03.png)' }}></span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="w100 con05 con_block">
             <div className="w1200">
-                <h4>Company history</h4>
-                <div className="in_txt">
-                    <div className="year y2020">
-                        <strong>2020</strong>
-                        <ul {...ulEdit("history2020")} />
-                    </div>
-                    <div className="year y2019">
-                        <strong>2019</strong>
-                        <ul {...ulEdit("history2019")} />
-                    </div>
-                    <div className="year y2018">
-                        <strong>2018</strong>
-                        <ul {...ulEdit("history2018")} />
-                    </div>
-                    <div className="year y2017">
-                        <strong>2017</strong>
-                        <ul {...ulEdit("history2017")} />
-                    </div>
-                    <div className="year y2016">
-                        <strong>2016</strong>
-                        <ul {...ulEdit("history2016")} />
-                    </div>
-                    <div className="year y2015">
-                        <strong>2015</strong>
-                        <ul {...ulEdit("history2015")} />
-                    </div>
-                    <div className="year y2014">
-                        <strong>2014</strong>
-                        <ul {...ulEdit("history2014")} />
-                    </div>
-                    <div className="year y2013">
-                        <strong>2013</strong>
-                        <ul {...ulEdit("history2013")} />
-                    </div>
-                    <div className="year y2012">
-                        <strong>2012</strong>
-                        <ul {...ulEdit("history2012")} />
-                    </div>
-                </div>
+                <h4>메이전시에서 활동할 에이전시를 상시 모집합니다.</h4>
+                <span>인플루언서 지원하기</span>
             </div>
-        </div>
-        <div className="w100 con06 con_block">
-            <div className="w1200">
-                <h4>
-                    <strong {...edit("pink_supporter_title")} />
-                    <span {...edit("pink_supporter_sub")} />
-                </h4>
-                <ul>
-                    {partners.kr.map((partner: any, index: number) => {
-                        const { alt, img, link } = partner;
-                        return <li key={index + "partner"}>
-                            <a href={editMode ? undefined : link}>
-                                <img src={img} alt={alt} />
-                                {editMode &&
-                                    <span className="del" onClick={() => {
-                                        removeArray("partners", index);
-                                    }}><i className="flaticon-multiply"></i></span>
-                                }
-                                <Upload onUpload={(url) => {
-                                    editArray("partners", index, { ...partner, img: url })
-                                }} />
-                            </a>
-                        </li>
-                    })}
-                    {editMode &&
-                        <li className="add" onClick={() => {
-                            addArray("partners", {})
-                        }}><i className="flaticon-add"></i>추가</li>
-                    }
-                </ul>
 
-            </div>
         </div>
-        <div className="w100 con07 con_block">
-            <div className="w1200">
-                <h4>
-                    <strong>우리는 쉬운 길보다 옳은 길을 만들고 걸어갑니다.</strong>
-                    We walk the right path rather than the easy one
-                </h4>
-                <span><a href="mailto:pinkroader@gmail.com">제휴문의</a></span>
-
-            </div>
-            <div className="ovj"></div>
-            <div className="bg" />
-        </div>
-        {open && <div style={{
-            opacity: 0,
-            position: "fixed",
-            width: "1px",
-            height: "1px",
-            top: 0,
-            left: 0,
-            overflow: "hidden"
-        }}>
-            {/* <input onChange={changePartner} value={addInfo.alt} /> */}
-            <Upload onUpload={(url) => {
-                setAddInfo({
-                    ...addInfo,
-                    img: url
-                })
-            }} />
-            <input />
-            <input onChange={() => { }} value={addInfo.link} />
-        </div>}
-        {/* popup은 언제나 class fade와 함께 있어야 한다. */}
-        <div className="popup_bg_mini" style={{ display: 'none' }}>
-            <a className="close_icon"><i className="flaticon-multiply" /></a>
-            <div className="in_txt">
-                <h3>이미지 업로드</h3>
-                <div className="con">
-                    <div className="input_box">
-                        <input type="file" />
-                    </div>
-                    <div className="info">
-                        <p><i className="flaticon-flag-1" /> 사이즈는 가로사이즈 300px이 넘지 않아야 합니다. <br /> PNG파일을 권장드리나 gif, jpg도 업로드가능합니다.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div className="fade"></div>
     </div>;
 };
 

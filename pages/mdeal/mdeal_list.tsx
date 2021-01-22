@@ -66,38 +66,38 @@ export const TourList: React.FC<IProp> = () => {
                         </ul>
                     </div>
                     <div className="deal_list">
-                        <h4>#꽃길만걷자</h4>
+                        <h4>#국내여행</h4>
                         <ul className="list_ul">
-                            <a href="/mdeal/mdeail_details">
+                            <a href="/mdeal/mdeal_details_01">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#요트</a> <a href="/">#부산</a></div>
+                                    <div className="title">요트체험</div>
+                                    <div className="cash"><strong>30,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#진해</a><a href="/">#뚜벅이여행</a><a href="/">#소풍</a></div>
+                                    <div className="title">진해로 소풍 가실분들 모집중</div>
+                                    <div className="cash"><strong>30,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#1박2일</a><a href="/">#제주도</a><a href="/">#제주도</a></div>
+                                    <div className="title">제주도 꽃구경 가실분?!</div>
+                                    <div className="cash"><strong>230,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#경주여행</a> <a href="/">#야경투어</a></div>
+                                    <div className="title">경주야경투어</div>
+                                    <div className="cash"><strong>120,000</strong>원</div>
                                 </li>
                             </a>
                         </ul>
@@ -105,36 +105,36 @@ export const TourList: React.FC<IProp> = () => {
                     <div className="deal_list">
                         <h4>#추천상품</h4>
                         <ul className="list_ul">
-                            <a href="/mdeal/mdeal_details">
+                            <a href="/mdeal/mdeal_details_01">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#요트</a> <a href="/">#부산</a></div>
+                                    <div className="title">요트체험</div>
+                                    <div className="cash"><strong>30,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#진해</a><a href="/">#뚜벅이여행</a><a href="/">#소풍</a></div>
+                                    <div className="title">진해로 소풍 가실분들 모집중</div>
+                                    <div className="cash"><strong>30,000</strong>원</div>
+                                </li>
+                            </a>
+                            <a href="/mdeal/mdeal_details_01">
+                                <li className="list_in">
+                                    <div className="img">상품이미지</div>
+                                    <div className="tag"><a href="/">#1박2일</a><a href="/">#제주도</a><a href="/">#제주도</a></div>
+                                    <div className="title">제주도 꽃구경 가실분?!</div>
+                                    <div className="cash"><strong>230,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
-                                </li>
-                            </a>
-                            <a href="/mdeal/mdeal_details">
-                                <li className="list_in">
-                                    <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#경주여행</a> <a href="/">#야경투어</a></div>
+                                    <div className="title">경주야경투어</div>
+                                    <div className="cash"><strong>120,000</strong>원</div>
                                 </li>
                             </a>
                         </ul>
@@ -171,100 +171,100 @@ export const TourList: React.FC<IProp> = () => {
                             </div>
                         </div>
                         <ul className="list_ul">
-                            <a href="/mdeal/mdeal_details">
+                            <a href="/mdeal/mdeal_details_01">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#요트</a> <a href="/">#부산</a></div>
+                                    <div className="title">요트체험</div>
+                                    <div className="cash"><strong>30,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#진해</a><a href="/">#뚜벅이여행</a><a href="/">#소풍</a></div>
+                                    <div className="title">진해로 소풍 가실분들 모집중</div>
+                                    <div className="cash"><strong>30,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#1박2일</a><a href="/">#제주도</a><a href="/">#제주도</a></div>
+                                    <div className="title">제주도 꽃구경 가실분?!</div>
+                                    <div className="cash"><strong>230,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#경주여행</a> <a href="/">#야경투어</a></div>
+                                    <div className="title">경주야경투어</div>
+                                    <div className="cash"><strong>120,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#서울</a> <a href="/">#궁궐</a></div>
+                                    <div className="title">궁궐에서의 사진 모델 투어</div>
+                                    <div className="cash"><strong>70,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#한강공원</a> <a href="/">#서울</a></div>
+                                    <div className="title">한강공원에서 피크닉 즐기기</div>
+                                    <div className="cash"><strong>35,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#전주</a> <a href="/">#한옥마을</a></div>
+                                    <div className="title">전주한옥마을 한복체험&사진촬영</div>
+                                    <div className="cash"><strong>100,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#서울</a> <a href="/">#하이킹</a></div>
+                                    <div className="title">서울 성곽을 따라 즐기는 하이킹</div>
+                                    <div className="cash"><strong>39,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#부산</a> <a href="/">#인생사진</a></div>
+                                    <div className="title">멋진 부산의 야경구경&인생사진 남기기</div>
+                                    <div className="cash"><strong>25,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#북한산</a> <a href="/">#하이킹</a></div>
+                                    <div className="title">북한산, 도봉산, 인왕산 하이킹</div>
+                                    <div className="cash"><strong>39,900</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#투어</a> <a href="/">#부산</a></div>
+                                    <div className="title">부산의 진정한 아름다운</div>
+                                    <div className="cash"><strong>55,000</strong>원</div>
                                 </li>
                             </a>
                             <a href="/mdeal/mdeal_details">
                                 <li className="list_in">
                                     <div className="img">상품이미지</div>
-                                    <div className="tag"><a href="/">#티켓</a> <a href="/">#경남</a></div>
-                                    <div className="title">더운날 수목원으로 오세요~!!</div>
-                                    <div className="cash"><strong>10,000</strong>원</div>
+                                    <div className="tag"><a href="/">#경주</a> <a href="/">#문화유산</a></div>
+                                    <div className="title">유네스코 세계문화유산 경주 투어</div>
+                                    <div className="cash"><strong>80,000</strong>원</div>
                                 </li>
                             </a>
                         </ul>

@@ -415,7 +415,7 @@ i.tooltip {
 }
 
 rect.allmenu_svg {
-  fill: #ed297b;
+  fill: #e4ad33;
 }
 
 .header .hd_right {
@@ -2033,13 +2033,13 @@ footer .footer_in_bottom {
 }
 
 .xet_btn.pomegrante {
-  color: #ed297b;
-  border: 1px solid #ed297b;
+  color: #e4ad33;
+  border: 1px solid #e4ad33;
 }
 
 .xet_btn.pomegrante:active,
 .xet_btn.pomegrante:hover {
-  background: #ed297b;
+  background: #e4ad33;
   color: #fff;
 }
 

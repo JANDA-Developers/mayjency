@@ -163,10 +163,10 @@ export const TourList: React.FC<IProp> = () => {
                                         <td className="id td02">
                                             <ul>
                                                 <li className="img">프로필 사진</li>
-                                                <li className="name">Yoondodo</li>
+                                                <li className="name">photoshot</li>
                                             </ul>
                                         </td>
-                                        <td className="td03">+3425</td>
+                                        <td className="td03">+266</td>
                                         <td className="td04">22</td>
                                         <td className="td05">5</td>
                                     </tr>
@@ -175,48 +175,48 @@ export const TourList: React.FC<IProp> = () => {
                                         <td className="id td02">
                                             <ul>
                                                 <li className="img">프로필 사진</li>
-                                                <li className="name">Yoondodo</li>
+                                                <li className="name">goculture</li>
                                             </ul>
                                         </td>
-                                        <td className="td03">+3425</td>
-                                        <td className="td04">22</td>
-                                        <td className="td05">5</td>
+                                        <td className="td03">+127</td>
+                                        <td className="td04">16</td>
+                                        <td className="td05">4</td>
                                     </tr>
                                     <tr>
                                         <td className="td01">3 <span>(-)</span></td>
                                         <td className="id td02">
                                             <ul>
                                                 <li className="img">프로필 사진</li>
-                                                <li className="name">Yoondodo</li>
+                                                <li className="name">yesgogo</li>
                                             </ul>
                                         </td>
-                                        <td className="td03">+3425</td>
-                                        <td className="td04">22</td>
-                                        <td className="td05">5</td>
+                                        <td className="td03">+325</td>
+                                        <td className="td04">13</td>
+                                        <td className="td05">3</td>
                                     </tr>
                                     <tr>
                                         <td className="td01">4 <span>(-)</span></td>
                                         <td className="id td02">
                                             <ul>
                                                 <li className="img">프로필 사진</li>
-                                                <li className="name">Yoondodo</li>
+                                                <li className="name">stayyolo</li>
                                             </ul>
                                         </td>
-                                        <td className="td03">+3425</td>
-                                        <td className="td04">22</td>
-                                        <td className="td05">5</td>
+                                        <td className="td03">+213</td>
+                                        <td className="td04">10</td>
+                                        <td className="td05">4</td>
                                     </tr>
                                     <tr>
                                         <td className="td01">5 <span>(-)</span></td>
                                         <td className="id td02">
                                             <ul>
                                                 <li className="img">프로필 사진</li>
-                                                <li className="name">Yoondodo</li>
+                                                <li className="name">goodtour</li>
                                             </ul>
                                         </td>
-                                        <td className="td03">+3425</td>
-                                        <td className="td04">22</td>
-                                        <td className="td05">5</td>
+                                        <td className="td03">+48</td>
+                                        <td className="td04">6</td>
+                                        <td className="td05">3</td>
                                     </tr>
                                 </tbody>
                             </table>
