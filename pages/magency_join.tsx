@@ -349,7 +349,7 @@ const UserType: React.FC<IUserTypeProps> = ({ handleChange }) => {
                 ※ 기업파트너는 사업자번호가 필요합니다. 사업자번호가 없는 경우에는
                 개인파트너로 회원가입을 해주세요.
             </p> */}
-            <p className="bt_txt">마케팅 플랫폼 메이전시는 <strong class="bt_bold">3,843</strong> 명이 사용하고 있습니다.</p>
+            <p className="bt_txt">마케팅 플랫폼 메이전시는 <strong className="bt_bold">3,843</strong> 명이 사용하고 있습니다.</p>
         </div>
     )
 }

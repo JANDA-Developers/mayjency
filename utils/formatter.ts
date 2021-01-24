@@ -15,10 +15,7 @@ const autoComma = (str: string | number = ''): string => {
     return x1 + x2;
 };
 
-
-
-  
-  export {
+export {
     autoComma
   };
 

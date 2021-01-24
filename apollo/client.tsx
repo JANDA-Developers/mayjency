@@ -32,7 +32,6 @@ const fileUploadLink = createUploadLink({
 });
 
 export const PinkClient = new ApolloClient({
-  link: from([fileUploadLink]),
   cache
 });
 

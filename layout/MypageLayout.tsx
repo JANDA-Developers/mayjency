@@ -79,7 +79,7 @@ export const MypageLayout: React.FC<IProp> = ({ children }) => {
                 <div className="lnb">
                     <div className="profile_box">
                         <div className="welcome">
-                            <span style={BG(myProfile?.profileImg?.uri || "")} onClick={() => {
+                            <span style={BG("")} onClick={() => {
                                 hiddenFileInput.current?.click()
                             }} className="img"><i className="jandaicon-setting"></i>프로필이미지</span>
                             <input onChange={handleChangeProfile} ref={hiddenFileInput} hidden type="file" />

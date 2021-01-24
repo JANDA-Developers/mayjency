@@ -89,10 +89,12 @@ export const useUserList = ({
         ...ops
     })
     
+    // @ts-ignore
     const items = data?.UserList.data || [];
+    // @ts-ignore
     const pageInfo = data?.UserList.page || DEFAULT_PAGE;
     
-    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items }
+    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items } as any
 }
 
 

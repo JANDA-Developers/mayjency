@@ -99,7 +99,7 @@ export const useNewsList = ({
     const items = data?.NewsList.data || [];
     const pageInfo = data?.NewsList.page || DEFAULT_PAGE;
     
-    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items }
+    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items } as any
 }
 
 

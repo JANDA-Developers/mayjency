@@ -6,13 +6,12 @@ import { Meta } from 'components/common/meta/Meta';
 import { Upload } from 'components/common/Upload';
 import Link from 'next/link';
 import { HiddenSubmitBtn } from 'components/common/HiddenSubmitBtn';
-import { GetStaticProps, InferGetStaticPropsType } from 'next';
 import { useProductList } from 'hook/useProduct';
 import { useRouter } from 'next/router';
 import { getStaticPageInfo } from '../utils/page';
 import { useBookingList } from '../hook/useBooking';
 
-export const Main: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({ pageInfo }) => {
+export const Main: React.FC<any> = ({ pageInfo }) => {
   const { items } = useProductList({ initialPageIndex: 1, initialViewCount: 8 });
   const { editMode } = useContext(AppContext);
   const original = pageInfo || pageInfoDefault;
@@ -32,7 +31,7 @@ export const Main: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
     <div className="main_con_box1">
       <div
         className="main_top_images"
-        // style={{ ...bg("mainBg") }}
+      // style={{ ...bg("mainBg") }}
       >
         <Upload onUpload={imgEdit("mainBg")} />
         <div className="ovj"></div>
@@ -72,7 +71,7 @@ export const Main: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           </h2>
           {/* <span {...edit("purposeSubTitle")}></span> */}
           <span>
-            언제 어디서나 어떤 상품도 판매할 수 있습니다. 
+            언제 어디서나 어떤 상품도 판매할 수 있습니다.
           </span>
         </div>
         <ul>
@@ -95,7 +94,7 @@ export const Main: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <span>
               Anywhere can do it
             </span>
-             {/*<strong {...edit("purposeCircle2")} />
+            {/*<strong {...edit("purposeCircle2")} />
             <span {...edit("purposeCircle2_en")} />*/}
           </li>
           <li>
@@ -106,7 +105,7 @@ export const Main: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <span>
               Have a variety of goods
             </span>
-             {/*<strong {...edit("purposeCircle3")} />
+            {/*<strong {...edit("purposeCircle3")} />
             <span {...edit("purposeCircle3_en")} />*/}
           </li>
         </ul>
@@ -233,5 +232,5 @@ export const Main: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 interface IGetProps {
   pageInfo: typeof pageInfoDefault | "",
 }
-export const getStaticProps: GetStaticProps<IGetProps> = getStaticPageInfo("tourMain");
+export const getStaticProps: any = getStaticPageInfo("tourMain");
 export default Main;

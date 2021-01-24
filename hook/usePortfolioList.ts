@@ -39,5 +39,5 @@ export const usePortfolioList = ({
     const items: Fportfolio[] = data?.PortfolioList.data || [];
     const pageInfo: Fpage = data?.PortfolioList.page || DEFAULT_PAGE;
 
-    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items }
+    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items } as any
 }

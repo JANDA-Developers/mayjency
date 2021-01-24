@@ -1,6 +1,5 @@
 import { useQuery } from "@apollo/client";
 import { BOOKING_COUNT } from "../apollo/gql/booking";
-import { graphQLClient } from "../hook/usePageInfo";
 import { bookingCount, bookingCountVariables, bookingList, bookingListVariables, _BookingFilter } from "../types/api";
 
 

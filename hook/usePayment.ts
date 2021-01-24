@@ -41,7 +41,7 @@ export const usePaymentList = ({
     const items: Fpayment[] = data?.PaymentList.data || [];
     const pageInfo: Fpage = data?.PaymentList.page || DEFAULT_PAGE;
 
-    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items }
+    return { pageInfo, filter, setPage, getLoading, setFilter, setSort, setViewCount, sort, viewCount, items } as any
 }
 
 export const useSettlementCal = ({

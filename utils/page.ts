@@ -10,11 +10,10 @@ export const getQueryIndex = (inPageIndex:number,pageInfo:Fpage) => {
 }
 
 export const getStaticPageInfo = (key:TPageKeys) => async () => {
-    const { data } = await usePageInfo(key);
     return {
         revalidate: 1,
         props: {
-            pageInfo: data?.value || "",
+            pageInfo: "",
         }, // will be passed to the page component as props
     }
 }
